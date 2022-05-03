@@ -1,0 +1,117 @@
+@import "../../styles/colors";
+@import "../../styles/variables";
+
+.wrapper {
+  background-color: $dark;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: $space-super $space-large;
+  max-width: $desktop;
+  margin: auto;
+
+  @media (max-width: $small) {
+    padding: $space-large $space-normal;
+    flex-direction: column;
+  }
+}
+
+.heading {
+  font-size: 28px;
+  margin: 0;
+
+  @media (max-width: $phone) {
+    font-size: 22px;
+  }
+}
+
+.projectList {
+  display: flex;
+  justify-content: space-evenly;
+
+  flex-wrap: wrap;
+  margin-top: $x4;
+}
+
+.projectItem {
+  background-color: $extraDark;
+  min-height: 400px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin: $x4 0;
+  box-shadow: 0 4px 8px 0 $extraDark;
+  transition: 0.3s;
+
+  @media (max-width: $tablet) {
+    flex-direction: column;
+    height: unset;
+    width: 400px;
+  }
+
+  @media (max-width: $phone) {
+    flex-direction: column;
+    height: unset;
+    width: 300px;
+  }
+
+  &:hover {
+    box-shadow: 0 8px 16px $extraDark;
+  }
+}
+
+.projectContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: $x2;
+  flex: 1;
+}
+
+.image {
+  height: 320px;
+  width: 320px;
+  align-self: center;
+
+  @media (max-width: $tablet) {
+    height: 400px;
+    width: 400px;
+  }
+
+  @media (max-width: $phone) {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+.projTitle {
+  font-size: 22px;
+  margin: 0;
+
+  @media (max-width: $phone) {
+    font-size: 18px;
+  }
+}
+
+.projText {
+  margin: $x2 0;
+
+  @media (max-width: $phone) {
+    font-size: 14px;
+  }
+}
+
+.projLink {
+  margin: 0;
+  font-weight: 300;
+  color: $green;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: $white;
+    font-weight: 700;
+  }
+}

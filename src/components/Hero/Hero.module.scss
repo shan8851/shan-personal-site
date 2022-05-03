@@ -1,0 +1,90 @@
+@import "../../styles/colors";
+@import "../../styles/variables";
+
+.wrapper {
+  background-color: $dark;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $space-super $space-large;
+  max-width: $desktop;
+  margin: auto;
+
+  @media (max-width: $small) {
+    padding: $space-large $space-normal;
+    flex-direction: column-reverse;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+
+  @media (max-width: $small) {
+    width: 100%;
+  }
+}
+
+.imageContainer {
+  display: flex;
+  align-self: flex-end;
+
+  @media (max-width: $small) {
+    align-self: center;
+  }
+}
+
+.avatar {
+  height: 400px;
+  border-radius: 50%;
+
+  @media (max-width: $tablet) {
+    height: 250px;
+  }
+}
+
+.largeText {
+  font-size: 36px;
+  margin: 0 0 $x4 0;
+
+  @media (max-width: $small) {
+    font-size: 28px;
+    margin: 0 0 $x2 0;
+  }
+
+  @media (max-width: $phone) {
+    font-size: 22px;
+  }
+}
+
+.text {
+  font-size: 32px;
+  margin: 0 0 $x4 0;
+
+  @media (max-width: $small) {
+    font-size: 24px;
+    margin: 0 0 $x2 0;
+  }
+
+  @media (max-width: $phone) {
+    font-size: 18px;
+  }
+}
+
+.altText {
+  color: $green;
+}
+
+.buttonContainer {
+  display: flex;
+  width: 360px;
+  justify-content: space-between;
+
+  @media (max-width: 400px) {
+    width: 100%;
+  }
+}

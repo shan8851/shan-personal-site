@@ -1,0 +1,105 @@
+@import "../../styles/colors";
+@import "../../styles/variables";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: $space-super $space-large;
+  max-width: $desktop;
+  margin: auto;
+
+  @media (max-width: $small) {
+    padding: $space-large $space-normal;
+    flex-direction: column;
+  }
+}
+
+.about {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  @media (max-width: $small) {
+    width: 100%;
+  }
+}
+
+.heading {
+  font-size: 28px;
+  margin: 0;
+
+  @media (max-width: $phone) {
+    font-size: 22px;
+  }
+}
+
+.copy {
+  font-size: 16px;
+}
+
+.skills {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: $small) {
+    width: 100%;
+  }
+}
+
+.skillList {
+  display: flex;
+  margin: $x2 0;
+
+  @media (max-width: $small) {
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: $phone) {
+    flex-direction: column;
+  }
+}
+
+.skill {
+  margin: $x2 $x1 $x2 0;
+  @media (max-width: $phone) {
+    margin: $x2 0;
+  }
+}
+
+.techStack {
+  display: flex;
+  flex-direction: column;
+}
+
+.stackList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: $x2;
+  @media (max-width: $phone) {
+    justify-content: center;
+  }
+}
+
+.stackItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: $x2;
+}
+
+.stackItem {
+  height: 80px;
+  width: 80px;
+}
+
+.stackLabel {
+  margin: 0;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.stackLogo {
+  height: 75px;
+  width: 75px;
+}

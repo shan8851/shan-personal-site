@@ -1,0 +1,31 @@
+@import "../../styles/colors";
+@import "../../styles/variables";
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $x2 $x4;
+  background-color: $dark;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  margin: 0 $x1;
+  font-weight: 100;
+
+  &:hover {
+    color: $white;
+    text-decoration: underline;
+    text-decoration-color: $green;
+    font-weight: 700;
+  }
+
+  @media (max-width: $phone) {
+    font-size: 12px;
+  }
+}

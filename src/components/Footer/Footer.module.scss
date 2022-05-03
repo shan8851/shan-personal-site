@@ -1,0 +1,40 @@
+@import "../../styles/colors";
+@import "../../styles/variables";
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: $space-large $space-normal;
+  max-width: $desktop;
+  margin: auto;
+
+  @media (max-width: $tablet) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.altColor {
+  color: $green;
+}
+
+.altText {
+  color: $green;
+  font-weight: 700;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  color: $green;
+  margin: 0 $x2;
+  font-size: 22px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.6;
+  }
+}

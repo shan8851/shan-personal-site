@@ -1,0 +1,96 @@
+@import "../../styles/colors";
+@import "../../styles/variables";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: $space-super $space-large;
+  max-width: $desktop;
+  margin: auto;
+
+  @media (max-width: $small) {
+    padding: $space-large $space-normal;
+    flex-direction: column;
+  }
+}
+
+.or {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  opacity: 0.6;
+}
+
+.calendly {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @media (max-width: $small) {
+    width: 100%;
+  }
+}
+
+.altText {
+  color: $green;
+}
+
+.heading {
+  font-size: 28px;
+  margin: 0;
+}
+
+.copy {
+  font-size: 16px;
+}
+
+.form {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: $small) {
+    width: 100%;
+  }
+}
+
+.formLabel {
+  color: $white;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: $x1;
+}
+
+.formInput {
+  background-color: $dark;
+  padding: $x2;
+  border: none;
+  margin-bottom: $x2;
+  color: $text;
+}
+
+.button {
+  background-color: $green;
+  border-radius: $x1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  border: none;
+  margin: $x1 0;
+  border: 2px solid $green;
+  cursor: pointer;
+  font-size: 18px;
+  color: $dark;
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.errorText {
+  margin-left: $x2;
+  color: $error;
+}
