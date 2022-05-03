@@ -34,6 +34,14 @@ export const Nav = () => {
         <a className={s.link} href="#contact">
           Contact
         </a>
+        <a
+          className={s.link}
+          href="https://cv.shan8851.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          CV
+        </a>
       </div>
     </div>
   );
