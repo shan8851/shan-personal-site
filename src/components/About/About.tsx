@@ -7,7 +7,8 @@ export const About = () => {
       <div className={s.about}>
         <h4 className={s.heading}>Experienced Software Engineer</h4>
         <p className={s.copy}>
-          💻 Engineer by day and blockchain hacker by night.
+          💻 Experienced full stack engineer with a proven track record of
+          delivering scalable, cloud first, web and mobile applications.
         </p>
         <p className={s.copy}>
           🤓 I've seen the future & am now busy building it with Web3, Solidity,
@@ -25,7 +26,7 @@ export const About = () => {
       <div className={s.skills}>
         <h6 className={s.heading}>What I can help you with</h6>
         <div className={s.skillList}>
-          <p className={s.skill}>Website Development</p>
+          <p className={s.skill}>Full Stack Development</p>
           <p className={s.skill}>Project Management</p>
           <p className={s.skill}>Smart Contracts</p>
           <p className={s.skill}>dApp Development</p>

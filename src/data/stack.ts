@@ -1,23 +1,25 @@
-import css from "../assets/css.svg";
 import gql from "../assets/gql.svg";
-import html from "../assets/html.svg";
 import js from "../assets/js.svg";
 import next from "../assets/next.svg";
 import react from "../assets/react.svg";
 import sass from "../assets/sass.svg";
 import sol from "../assets/solidity.png";
-import tw from "../assets/tailwind.svg";
 import ts from "../assets/ts.svg";
+import node from "../assets/node.png";
+import mongo from "../assets/mongo.svg";
+import firebase from "../assets/firebase.png";
+
+import { v4 as uuidv4 } from "uuid";
 
 export const tech = [
-  { id: 0, text: "Javascript", logo: js },
-  { id: 1, text: "Typescript", logo: ts },
-  { id: 2, text: "React", logo: react },
-  { id: 3, text: "NextJS", logo: next },
-  { id: 4, text: "GraphQL", logo: gql },
-  { id: 5, text: "Sass", logo: sass },
-  { id: 6, text: "Solidity", logo: sol },
-  { id: 7, text: "Tailwind", logo: tw },
-  { id: 8, text: "HTML5", logo: html },
-  { id: 9, text: "CSS3", logo: css },
+  { id: uuidv4(), text: "Javascript", logo: js },
+  { id: uuidv4(), text: "React", logo: react },
+  { id: uuidv4(), text: "Node", logo: node },
+  { id: uuidv4(), text: "Typescript", logo: ts },
+  { id: uuidv4(), text: "NextJS", logo: next },
+  { id: uuidv4(), text: "GraphQL", logo: gql },
+  { id: uuidv4(), text: "MongoDB", logo: mongo },
+  { id: uuidv4(), text: "Firebase", logo: firebase },
+  { id: uuidv4(), text: "Solidity", logo: sol },
+  { id: uuidv4(), text: "Sass", logo: sass },
 ];

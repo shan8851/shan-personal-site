@@ -1,9 +1,10 @@
 import mt from "../assets/mtgif.gif";
 import us from "../assets/upswing.png";
 import sp from "../assets/ga.png";
-import rdg from "../assets/rdg.png";
+//import rdg from "../assets/rdg.png";
 import ss from "../assets/ss.png";
 import faucet from "../assets/faucet.png";
+import db from "../assets/dashboard.png";
 
 import { v4 as uuidv4 } from "uuid";
 
@@ -41,11 +42,19 @@ export const projects = [
   },
   {
     id: uuidv4(),
-    title: "Ready Dev Go",
-    description: "Newsletter landing page",
-    url: "https://readydevgo.co/",
-    image: rdg,
+    title: "Web3 Dashboard",
+    description:
+      "Exploring the Moralis API. A web3 inspired dashboard pulling balances, recent transactions, NFTs and the ability to send ETH to another address",
+    url: "https://web3-dashboard-lac.vercel.app/",
+    image: db,
   },
+  // {
+  //   id: uuidv4(),
+  //   title: "Ready Dev Go",
+  //   description: "Newsletter landing page",
+  //   url: "https://readydevgo.co/",
+  //   image: rdg,
+  // },
   {
     id: uuidv4(),
     title: "Support Privacy",
