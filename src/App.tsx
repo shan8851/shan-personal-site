@@ -1,19 +1,10 @@
-import { About } from "./components/About/About";
-import { Contact } from "./components/Contact/Contact";
-import { Footer } from "./components/Footer/Footer";
-import { Hero } from "./components/Hero/Hero";
-import { Nav } from "./components/Nav/Nav";
-import { Projects } from "./components/Projects/Projects";
+import { Routes, Route } from "react-router-dom";
+import { HomePage } from "./pages/Home";
 
 export const App = () => {
   return (
-    <>
-      <Nav />
-      <Hero />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-    </>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+    </Routes>
   );
 };
