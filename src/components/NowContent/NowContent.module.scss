@@ -1,0 +1,53 @@
+@import "../../styles/colors";
+@import "../../styles/variables";
+
+.wrapper {
+  // background-color: $dark;
+}
+
+.container {
+  padding: $space-super $space-large;
+  max-width: $desktop;
+  margin: auto;
+
+  @media (max-width: $small) {
+    padding: $space-large $space-normal;
+  }
+}
+
+.title {
+  font-size: 34px;
+  margin: 0 0 64px 0;
+  text-align: center;
+
+  @media (max-width: $phone) {
+    font-size: 26px;
+     margin: 0 0 16px 0;
+  }
+}
+
+.headingLarge {
+  font-size: 28px;
+  margin: 0;
+
+  @media (max-width: $phone) {
+    font-size: 22px;
+  }
+}
+
+.headingSmall {
+  font-size: 22px;
+  margin: 0;
+
+  @media (max-width: $phone) {
+    font-size: 16px;
+  }
+}
+
+.copy {
+  font-size: 16px;
+}
+
+.link {
+  color: $green;
+}

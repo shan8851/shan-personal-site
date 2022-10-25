@@ -1,9 +1,12 @@
+import { Link } from "react-router-dom";
 import s from "./Nav.module.scss";
 
 export const Nav = () => {
   return (
     <div className={s.nav}>
       <div className={s.links}>
+      <Link className={s.link} to="/">home</Link>
+        <Link className={s.link} to="/now">/now</Link>
         <a
           className={s.link}
           target="_blank"
