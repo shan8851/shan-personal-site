@@ -24,7 +24,7 @@ export const NowContent = () => {
         <p className={s.copy}>Daydreaming about being an Indie Maker!</p>
         <h4 className={s.headingLarge}>Balance</h4>
         <p className={s.copy}>
-          🏸 Squash (WTF No Squash Emjoi)
+          🥋 BJJ
         </p>
         <p className={s.copy}>
           🥊 Muay Thai
@@ -51,7 +51,7 @@ export const NowContent = () => {
         </p>
         <h4 className={s.headingSmall}>Page last updated</h4>
         <p className={s.copy}>
-          October 2022
+          March 2023
         </p>
         <h4 className={s.headingSmall}>This page inspired by</h4>
         <p className={s.copy}>
