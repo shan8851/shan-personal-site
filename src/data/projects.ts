@@ -4,11 +4,19 @@ import us from "../assets/upswing.png";
 import mac from '../assets/mac.png'
 import ss from "../assets/ss.png";
 import faucet from "../assets/faucet.png";
-import db from "../assets/dashboard.png";
+import cielo from "../assets/cielo.png";
 
 import { v4 as uuidv4 } from "uuid";
 
 export const projects = [
+    {
+    id: uuidv4(),
+    title: "Cielo - Defi Analytics Dashboard",
+    description:
+      "Defi analytics dashboard supporting 16 EVM chains",
+    url: "https://cielo.finance/",
+    image: cielo,
+  },
   {
     id: uuidv4(),
     title: "Moonturds",
@@ -47,14 +55,6 @@ export const projects = [
       "Simple storage to read and write to the blockchain as well as keep track of total contributions and total unique users",
     url: "https://shans-simple-storage.vercel.app/",
     image: ss,
-  },
-  {
-    id: uuidv4(),
-    title: "Web3 Dashboard",
-    description:
-      "Exploring the Moralis API. A web3 inspired dashboard pulling balances, recent transactions, NFTs and the ability to send ETH to another address",
-    url: "https://web3-dashboard-lac.vercel.app/",
-    image: db,
   },
   // {
   //   id: uuidv4(),

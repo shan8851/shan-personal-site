@@ -13,10 +13,10 @@ export const Hero = () => {
           <h3 className={s.text}>
             I'm a software engineer specialising in{" "}
             <span className={s.altText}>React</span> and{" "}
-            <span className={s.altText}>Next</span> with a keen interest in{" "}
+            <span className={s.altText}>NextJS</span> with a keen interest in{" "}
             <span className={s.altText}>Web3</span> technologies.
           </h3>
-          <h3 className={s.text}>I'm available for freelance work now!</h3>
+          <h3 className={s.text}>Available for new contracts!</h3>
           <div className={s.buttonContainer}>
             <Button buttonText="Let's talk" href="#contact" />
             <Button buttonText="See my work" secondary href="#projects" />
