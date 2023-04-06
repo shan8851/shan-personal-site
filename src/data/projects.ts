@@ -5,10 +5,19 @@ import mac from '../assets/mac.png'
 import ss from "../assets/ss.png";
 import faucet from "../assets/faucet.png";
 import cielo from "../assets/cielo.png";
+import techleap from "../assets/techleap.png";
 
 import { v4 as uuidv4 } from "uuid";
 
 export const projects = [
+    {
+    id: uuidv4(),
+    title: "TechLeap - Unlock your tech career.",
+    description:
+      "A weekly newsletter offering practical guidance for breaking into software development and thriving in your early years.",
+    url: "https://techleaphq.com/",
+    image: techleap,
+  },
     {
     id: uuidv4(),
     title: "Cielo - Defi Analytics Dashboard",
@@ -48,26 +57,4 @@ export const projects = [
     url: "https://www.upswingdigital.co.uk/",
     image: us,
   },
-  {
-    id: uuidv4(),
-    title: "Simple Storage",
-    description:
-      "Simple storage to read and write to the blockchain as well as keep track of total contributions and total unique users",
-    url: "https://shans-simple-storage.vercel.app/",
-    image: ss,
-  },
-  // {
-  //   id: uuidv4(),
-  //   title: "Ready Dev Go",
-  //   description: "Newsletter landing page",
-  //   url: "https://readydevgo.co/",
-  //   image: rdg,
-  // },
-  // {
-  //   id: uuidv4(),
-  //   title: "Support Privacy",
-  //   description: "Privacy first alternatives for popular Google products",
-  //   url: "https://fuck-google.netlify.app/",
-  //   image: sp,
-  // },
 ];

@@ -8,6 +8,12 @@ export const NowContent = () => {
         <h2 className={s.title}>What I am up to</h2>
         <h4 className={s.headingLarge}>Work</h4>
         <p className={s.copy}>
+          I wasn't sure where to put this, could be life or work, but I would like it to become work one day. I have recently decided to launch a newsletter called <a href="https:techleaphq.com">TechLeap</a> which is aimed at helping new developers break into the industry and navigate their first few years.
+        </p>
+        <p className={s.copy}>
+          The newsletter will go alongside my mentoring work and is something I am super passionate about.
+        </p>
+        <p className={s.copy}>
           Building out the number 1 DeFi analytics feed with the great team @UniWhales!
         </p>
         <p className={s.copy}>
@@ -51,7 +57,7 @@ export const NowContent = () => {
         </p>
         <h4 className={s.headingSmall}>Page last updated</h4>
         <p className={s.copy}>
-          March 2023
+          April 2023
         </p>
         <h4 className={s.headingSmall}>This page inspired by</h4>
         <p className={s.copy}>
