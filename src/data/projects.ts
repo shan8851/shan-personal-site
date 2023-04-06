@@ -2,7 +2,6 @@ import mt from "../assets/mtgif.gif";
 import us from "../assets/upswing.png";
 //import sp from "../assets/ga.png";
 import mac from '../assets/mac.png'
-import ss from "../assets/ss.png";
 import faucet from "../assets/faucet.png";
 import cielo from "../assets/cielo.png";
 import techleap from "../assets/techleap.png";
