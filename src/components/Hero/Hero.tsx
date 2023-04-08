@@ -8,18 +8,17 @@ export const Hero = () => {
       <div className={s.container}>
         <div className={s.content}>
           <h1 className={s.largeText}>
-            👋 I'm <span className={s.altText}>Shan</span>
+            🚀 Hey there, <span className={s.altText}>I'm Shan!</span>
           </h1>
           <h3 className={s.text}>
-            I'm a software engineer specialising in{" "}
-            <span className={s.altText}>React</span> and{" "}
-            <span className={s.altText}>NextJS</span> with a keen interest in{" "}
-            <span className={s.altText}>Web3</span> technologies.
+            I'm a savvy software engineer with a passion for{" "}
+            <span className={s.altText}>React</span> ,{" "}
+            <span className={s.altText}>NextJS</span> and an ever-growing curiosity in{" "}
+            <span className={s.altText}>Web3</span> technologies. Seeking new adventures in software contracting!
           </h3>
-          <h3 className={s.text}>Available for new contracts!</h3>
           <div className={s.buttonContainer}>
-            <Button buttonText="Let's talk" href="#contact" />
-            <Button buttonText="See my work" secondary href="#projects" />
+            <Button buttonText="Let's Connect" href="#contact" />
+            <Button buttonText="Explore My work" secondary href="#projects" />
           </div>
         </div>
         <div className={s.imageContainer}>
