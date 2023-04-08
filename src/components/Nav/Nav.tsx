@@ -34,7 +34,7 @@ export const Nav = () => {
         <a className={s.link} href="#projects">
           Projects
         </a>
-        <a className={s.link} href="#contact">
+        <a className={s.link} href="/#contact">
           Contact
         </a>
         <a
