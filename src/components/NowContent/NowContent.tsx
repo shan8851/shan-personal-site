@@ -7,7 +7,7 @@ export const NowContent = () => {
         <h2 className={s.title}>How I'm Focusing on Work, Life, and Balance Right Now</h2>
         <h4 className={s.headingLarge}>Work</h4>
         <p className={s.copy}>
-         wasn't sure whether to categorize this as life or work, but I'd love for it to become work someday. I've recently launched a newsletter called <a href="https://techleaphq.com">TechLeap</a>, aimed at helping new developers break into the industry and navigate their first few years.
+         wasn't sure whether to categorize this as life or work, but I'd love for it to become work someday. I've recently launched a newsletter called <a href="https://techleap.beehiiv.com/">TechLeap</a>, aimed at helping new developers break into the industry and navigate their first few years.
         </p>
         <p className={s.copy}>
           The newsletter complements my mentoring work and is something I'm incredibly passionate about.

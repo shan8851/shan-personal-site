@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import s from "./Nav.module.scss";
 
 export const Nav = () => {
+  const baseUrl = window.location.origin
+  console.log(baseUrl)
   return (
     <div className={s.nav}>
       <div className={s.links}>
@@ -31,11 +33,8 @@ export const Nav = () => {
         >
           Github
         </a>
-        <a className={s.link} href="#projects">
-          Projects
-        </a>
-        <a className={s.link} href="/#contact">
-          Contact
+        <a className={s.link} href="https://calendly.com/asamshan/30min">
+          Connect!
         </a>
         <a
           className={s.link}
@@ -45,6 +44,15 @@ export const Nav = () => {
         >
           CV
         </a>
+        <a
+          className={s.link}
+          href="https://techleap.beehiiv.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Newsletter
+        </a>
+
       </div>
     </div>
   );
