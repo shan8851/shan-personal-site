@@ -5,22 +5,18 @@ export const About = () => {
   return (
     <div className={s.container}>
       <div className={s.about}>
-        <h4 className={s.heading}>Experienced Software Engineer</h4>
+        <h4 className={s.heading}>Versatile Software Engineer</h4>
         <p className={s.copy}>
-          💻 Experienced full stack engineer with a proven track record of
-          delivering scalable, cloud first, web and mobile applications.
+          🌟 Versatile full-stack engineer known for crafting scalable, cloud-first web and mobile applications with precision and flair.
         </p>
         <p className={s.copy}>
-          🤓 I've seen the future & am now busy building it with Web3, Solidity,
-          and Javascript.
+          🚀 I've glimpsed the future and I'm now eagerly constructing it using Web3, Solidity, and JavaScript.
         </p>
         <p className={s.copy}>
-          🧟 I love all things tech, enjoy meeting new people and working on
-          interesting things.
+         🌐 Passionate about all things tech, I thrive on meeting new people and collaborating on intriguing projects.
         </p>
         <p className={s.copy}>
-          🍺 If that sounds like your bag then book a call with me and let's
-          collaborate.
+          🥂 If that resonates with you, let's book a call and start creating something amazing together.
         </p>
       </div>
       <div className={s.skills}>

@@ -1,33 +1,32 @@
-import { HashLink } from 'react-router-hash-link';
 import s from './NowContent.module.scss'
 
 export const NowContent = () => {
   return (
     <div className={s.wrapper}>
       <div className={s.container}>
-        <h2 className={s.title}>What I am up to</h2>
+        <h2 className={s.title}>How I'm Focusing on Work, Life, and Balance Right Now</h2>
         <h4 className={s.headingLarge}>Work</h4>
         <p className={s.copy}>
-          I wasn't sure where to put this, could be life or work, but I would like it to become work one day. I have recently decided to launch a newsletter called <a href="https://techleaphq.com">TechLeap</a> which is aimed at helping new developers break into the industry and navigate their first few years.
+         wasn't sure whether to categorize this as life or work, but I'd love for it to become work someday. I've recently launched a newsletter called <a href="https://techleaphq.com">TechLeap</a>, aimed at helping new developers break into the industry and navigate their first few years.
         </p>
         <p className={s.copy}>
-          The newsletter will go alongside my mentoring work and is something I am super passionate about.
+          The newsletter complements my mentoring work and is something I'm incredibly passionate about.
         </p>
         <p className={s.copy}>
-          Building out the number 1 DeFi analytics feed with the great team @UniWhales!
+          Collaborating with the fantastic team @UniWhales to build the top DeFi analytics feed!
         </p>
         <p className={s.copy}>
-          Still advising and working with Let's Eat!
+          Continuing to advise and work with Let's Eat!
         </p>
-        <p className={s.copy}>Running a small software company!</p>
+        <p className={s.copy}>Managing a small software company!</p>
         <h4 className={s.headingLarge}>Life</h4>
         <p className={s.copy}>
-          Being the best working Dad I can be!
+          Striving to be the best working dad I can be!
         </p>
         <p className={s.copy}>
-          Always learning and working on something new.
+          Constantly learning and working on new projects.
         </p>
-        <p className={s.copy}>Daydreaming about being an Indie Maker!</p>
+        <p className={s.copy}>Daydreaming about becoming an Indie Maker!</p>
         <h4 className={s.headingLarge}>Balance</h4>
         <p className={s.copy}>
           🥋 BJJ
@@ -36,9 +35,9 @@ export const NowContent = () => {
           🥊 Muay Thai
         </p>
         <p className={s.copy}>♠️ Poker</p>
-        <h4 className={s.headingSmall}>Hit me up</h4>
+        <h4 className={s.headingSmall}>Get in touch</h4>
         <p className={s.copy}>
-          Reach out on <a
+          Connect on <a
           className={s.link}
           target="_blank"
           rel="noopener noreferrer"
@@ -48,12 +47,12 @@ export const NowContent = () => {
         </a>
         </p>
         <p className={s.copy}>
-          Book a <HashLink
+          Book a <a
           className={s.link}
-          to="/#contact"
+          href="https://calendly.com/asamshan/30min"
         >
           call
-        </HashLink>
+        </a>
         </p>
         <h4 className={s.headingSmall}>Page last updated</h4>
         <p className={s.copy}>
