@@ -22,7 +22,7 @@ export const projects = [
     id: uuidv4(),
     title: "React Roles - Curated react opportunities!.",
     description:
-      "Discover React Roles, a swanky platform bridging talented developers and top-notch companies in the React ecosystem. Jump aboard and explore endless opportunities! 🚀re",
+      "WIP: Discover React Roles, a swanky platform bridging talented developers and top-notch companies in the React ecosystem. Jump aboard and explore endless opportunities! 🚀",
     url: "https://reactroles.com/",
     image: reactroles,
   },
