@@ -5,6 +5,7 @@ import mac from '../assets/mac.png'
 import faucet from "../assets/faucet.png";
 import cielo from "../assets/cielo.png";
 import techleap from "../assets/techleap.png";
+import reactroles from "../assets/reactroles.png"
 
 import { v4 as uuidv4 } from "uuid";
 
@@ -16,6 +17,14 @@ export const projects = [
       "A weekly newsletter offering practical guidance for breaking into software development and thriving in your early years.",
     url: "https://techleaphq.com/",
     image: techleap,
+  },
+      {
+    id: uuidv4(),
+    title: "React Roles - Curated react opportunities!.",
+    description:
+      "Discover React Roles, a swanky platform bridging talented developers and top-notch companies in the React ecosystem. Jump aboard and explore endless opportunities! 🚀re",
+    url: "https://reactroles.com/",
+    image: reactroles,
   },
     {
     id: uuidv4(),
